@@ -1,6 +1,6 @@
 # Automated Data Cleaning from Yahoo Finance
 
-This project automates the process of downloading, cleaning, and saving financial time series data from **Yahoo Finance** using Python.  
+This repository **automates** the process of downloading, cleaning, and saving financial time series data from **Yahoo Finance** using Python.  
 It is designed as a simple and reusable data-cleaning workflow for data analysis or portfolio projects.
 
 ---
