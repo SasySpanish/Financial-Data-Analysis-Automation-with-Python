@@ -3,7 +3,7 @@
 This folder contains **cleaned and preprocessed datasets** ready for Exploratory Data Analysis (EDA).
 
 ## Description
-Each dataset has been automatically cleaned by the [previous data preparation and cleaning pipeline](../../Data Cleaning/).  
+Each dataset has been automatically cleaned by the [previous data preparation and cleaning pipeline](../../Data%20Cleaning/). 
 The cleaning process included:
 - Handling missing or inconsistent values.
 - Converting columns to appropriate data types.
