@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EDA Report - {{ ticker }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
+        th { background-color: #f2f2f2; }
+        img { max-width: 100%; height: auto; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>EDA Report - {{ ticker }}</h1>
+
+    <h2>Summary Statistics</h2>
+    <table>
+        <thead>
+            <tr>
+                {% for col in summary.columns %}
+                <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in summary.index %}
+            <tr>
+                {% for col in summary.columns %}
+                <td>{{ summary.loc[i,col] }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Price Trend</h2>
+    <img src="{{ trend_plot }}" alt="Price Trend">
+
+    <h2>Distribution</h2>
+    <img src="{{ distribution_plot }}" alt="Distribution">
+
+    <h2>Correlation Heatmap</h2>
+    <img src="{{ correlation_plot }}" alt="Correlation Heatmap">
+</body>
+</html>
+
