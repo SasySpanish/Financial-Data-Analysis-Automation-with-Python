@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA)
 
-This folder contains the automation pipeline for the **Exploratory Data Analysis (EDA)** phase.  
+This repository **automates** each phase of **Exploratory Data Analysis (EDA) pipeline**.
 The process loads the cleaned dataset(s), performs descriptive statistical analysis, generates visualizations, and produces an automated HTML report for each asset or ticker.
 
 ## Overview
