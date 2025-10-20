@@ -16,10 +16,10 @@ The goal is to create a **standardized, repeatable, and efficient pipeline** tha
 ```
 Financial-Data-Analysis-Automation-with-Python/
 │
-├── 1_Data_Cleaning/                 → Cleaning and preparing raw data
-├── 2_Exploratory_Data_Analysis_(EDA)/ → Automated data exploration and profiling
-├── 3_Feature_Engineering/           → Feature creation and transformation
-├── 4_Data_Visualization/            → Graphs, plots, and visual reports
+├── 1) Data Cleaning/                 → Collecting (from Yahoo Finance), cleaning and preparing raw data
+├── 2) Exploratory Data Analysis (EDA)/ → Automated data exploration and profiling
+├── 3) Feature Engineering/           → Feature creation and transformation
+├── 4) Data Visualization/            → Graphs, plots, and visual reports
 └── README.md                        → Main repository documentation
 ```
 
@@ -66,7 +66,7 @@ Financial-Data-Analysis-Automation-with-Python/
 
 ## How to Use
 
-1. The main dataset is **automatically downloaded** in the `src` folder using **Yahoo Finance**.  
+1. The main dataset is **automatically downloaded** in the `src` folder using **Yahoo Finance**.
 2. You can also place **any custom dataset** you want to analyze inside the `data_raw` folder — the cleaning scripts will handle it automatically.  
 3. Run scripts sequentially in each folder:
    - `1_Data_Cleaning` → clean and standardize data.  
