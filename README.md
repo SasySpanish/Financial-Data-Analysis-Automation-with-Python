@@ -114,28 +114,10 @@ You can easily extend the project by:
 - Developing advanced feature engineering functions (e.g., volatility metrics, rolling stats).  
 - Integrating visualization dashboards using **Plotly Dash**, **Streamlit**, or **Power BI**.
 
----
-
-## Contributing
-
-Contributions are welcome!  
-If you want to suggest improvements or add new features:
-
-1. **Fork** the repository.  
-2. **Create a new branch** for your changes.  
-3. **Commit** with clear messages.  
-4. **Open a Pull Request** describing your modification.
-
----
-
-## License
-Specify your license (e.g. MIT, Apache 2.0).  
-Add a `LICENSE` file to the repository if not already included.
 
 ---
 
 ## Author
 **GitHub:** [@SasySpanish](https://github.com/SasySpanish)  
-This project demonstrates how automation can enhance the efficiency and quality of **financial data workflows**, making it easier to transform raw data into valuable insights.
 
 ---
